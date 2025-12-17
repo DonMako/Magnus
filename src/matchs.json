@@ -1,0 +1,90 @@
+[
+	{
+		"date": "12 septembre 2025",
+		"equipeDomicile": "Rouen",
+		"scoreDomicile": 4,
+		"scoreVisiteur": 1,
+		"equipeVisiteur": "Gap",
+		"tab": false
+	},
+	{
+		"date": "12 septembre 2025",
+		"equipeDomicile": "Nice",
+		"scoreDomicile": 3,
+		"scoreVisiteur": 1,
+		"equipeVisiteur": "Chamonix",
+		"tab": false
+	},
+	{
+		"date": "12 septembre 2025",
+		"equipeDomicile": "Briançon",
+		"scoreDomicile": 2,
+		"scoreVisiteur": 3,
+		"equipeVisiteur": "Angers",
+		"tab": false
+	},
+	{
+		"date": "12 septembre 2025",
+		"equipeDomicile": "Marseille",
+		"scoreDomicile": 3,
+		"scoreVisiteur": 2,
+		"equipeVisiteur": "Anglet",
+		"tab": false
+	},
+	{
+		"date": "12 septembre 2025",
+		"equipeDomicile": "Grenoble",
+		"scoreDomicile": 6,
+		"scoreVisiteur": 2,
+		"equipeVisiteur": "Bordeaux",
+		"tab": false
+	},
+	{
+		"date": "13 septembre 2025",
+		"equipeDomicile": "Cergy-Pontoise",
+		"scoreDomicile": 5,
+		"scoreVisiteur": 2,
+		"equipeVisiteur": "Amiens",
+		"tab": false
+	},
+	{
+		"date": "16 septembre 2025",
+		"equipeDomicile": "Gap",
+		"scoreDomicile": 4,
+		"scoreVisiteur": 1,
+		"equipeVisiteur": "Marseille",
+		"tab": false
+	},
+	{
+		"date": "16 septembre 2025",
+		"equipeDomicile": "Bordeaux",
+		"scoreDomicile": 2,
+		"scoreVisiteur": 4,
+		"equipeVisiteur": "Rouen",
+		"tab": false
+	},
+	{
+		"date": "16 septembre 2025",
+		"equipeDomicile": "Angers",
+		"scoreDomicile": 6,
+		"scoreVisiteur": 3,
+		"equipeVisiteur": "Grenoble",
+		"tab": false
+	},
+	{
+		"date": "16 septembre 2025",
+		"equipeDomicile": "Chamonix",
+		"scoreDomicile": 4,
+		"scoreVisiteur": 2,
+		"equipeVisiteur": "Briançon",
+		"tab": false
+	},
+	{
+		"date": "16 septembre 2025",
+		"equipeDomicile": "Anglet",
+		"scoreDomicile": 4,
+		"scoreVisiteur": 7,
+		"equipeVisiteur": "Cergy-Pontoise",
+		"tab": false
+	}
+]
