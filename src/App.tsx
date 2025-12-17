@@ -1,17 +1,16 @@
 import { useState } from "react";
 import ChangementLangue from "./ChangementLangue";
-import FiltreEquipe from "./equipes/FiltreEquipe";
 import matchs from "./matchs.json";
-import ResultatsParJour from "./ResultatsParJour";
+import ResultatsParJour from "./resultats/ResultatsParJour";
+import getEquipesActuelles from "./equipes/utils";
 
 function App() {
-  const [equipes, setEquipes] = useState([]);
+  const [equipes, setEquipes] = useState(getEquipesActuelles());
 
   return (
     <>
       <ChangementLangue />
-      <FiltreEquipe />
-      <ResultatsParJour matchs={matchs} />
+      <ResultatsParJour matchs={matchs} equipes={equipes} />
     </>
   )
 }

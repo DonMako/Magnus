@@ -1,6 +1,6 @@
 import Resultats from "./Resultats";
-import type { Journee } from "./types/Journee";
-import type { Match } from "./types/Match";
+import type { Journee } from "../types/Journee";
+import type { Match } from "../types/Match";
 
 function getDates(matchs: Match[]): string[] {
 	let dates: string[] = [];
@@ -13,11 +13,11 @@ function getMatchsByDate(listeMatchs: Match[], date: string): Journee {
 	return { date, matchs };
 }
 
-const ResultatParJour = ({ matchs }: { matchs: Match[] }) => {
+const ResultatParJour = ({ matchs, equipes }: { matchs: Match[], equipes: string[] }) => {
 
 	const dates: string[] = getDates(matchs);
 	return (
-		dates.map((date) => <Resultats journee={getMatchsByDate(matchs, date)} />)
+		dates.map((date) => <Resultats journee={getMatchsByDate(matchs, date)} equipes={equipes} />)
 	)
 
 }

@@ -1,5 +1,5 @@
-import Equipe from "./equipes/Equipe";
-import type { Match } from "./types/Match";
+import Equipe from "../equipes/Equipe";
+import type { Match } from "../types/Match";
 
 const Resultat = (match: Match) => {
 

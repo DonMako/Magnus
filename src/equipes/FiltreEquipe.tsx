@@ -1,21 +1,18 @@
-import getEquipesActuelles from "./utils";
+import { useTranslation } from "react-i18next";
 
-const FiltreEquipe = () => {
+const FiltreEquipe = ({ onChange }) => {
 
-	const equipes: string[] = getEquipesActuelles();
+	const { t } = useTranslation();
+
+	function valider() {
+		onChange(document.getElementById("searchTxt")!);
+	}
 
 	return (
 		<>
-			<form>
-				<fieldset>
-					<legend>Équipe(s) sélectionnée(s)</legend>
-					{equipes.map((equipe) => <>
-						<input type="checkbox" id={equipe.toLowerCase()} name={equipe.toLowerCase()} value={equipe.toUpperCase()} />
-						<label htmlFor={equipe.toLowerCase()}>{equipe}</label>
-						<br />
-					</>)}
-				</fieldset>
-			</form>
+			<label htmlFor="filtreEquipe">{t("uniquement")}</label>
+			<input id="filtreEquipe" type="text"></input>
+			<button id="filterEquipes" onClick={valider}>{t("valider")}</button>
 		</>)
 }
 
